@@ -7,7 +7,7 @@
       $seriesContainer[] = 1;
     }
     
-    for ($index = count($seriesContainer); $index <= 50; $index++) {
+    for ($index = count($seriesContainer); $index < 50; $index++) {
       $seriesContainer[$index] = $seriesContainer[$index-2] + $seriesContainer[$index-1];
     }
   }
